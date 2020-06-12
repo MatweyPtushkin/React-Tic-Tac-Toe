@@ -1,0 +1,71 @@
+.score {
+  width: 450px;
+  margin: 35px auto 0;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+table {
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 24px;
+}
+
+th,
+tr,
+td {
+  border: 1px solid black;
+}
+
+.tic-tak-toe {
+  width: 450px;
+  border: 1px solid black;
+  margin: 100px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  line-height: 90px;
+  font-size: 75px;
+}
+
+.ttt-item {
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  font-size: 100px;
+  line-height: 125px;
+}
+
+.ttt-item:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  color: red;
+}
+
+.gameMenu {
+  width: 450px;
+  margin: 35px auto 0;
+  text-align: center;
+}
+
+button {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+button:hover {
+  border: 1px solid red;
+  background-color: lightgray;
+  color: red;
+  font-size: 32px;
+}
+
+.changeChar {
+  display: inline;
+}
